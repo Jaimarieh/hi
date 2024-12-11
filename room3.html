@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="restart">Restart</a>
+  </nav>
+  
+  <div class="room">
+    <!-- Background Image for the room -->
+    <img src="bed.JPG" alt="room background" class="bed">
+  
+    <div class="notice" id="notice">
+      click the phone again!!
+    </div>
+    
+    <img src="img/phone.PNG" alt="cellphone" class="phone" id="phone">
+
+    <div id="video-container" class="video-container" style="display: none;">
+      <video id="video" width="100%" controls>
+        <source src="videos/fit.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      
+  
+    </div>
+    <a id="exit-button" class="exit-button" href="room5.html">done watching</a>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
